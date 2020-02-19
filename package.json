@@ -1,0 +1,25 @@
+{
+  "name": "restservice-for-magento",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rest.js",
+  "scripts": {
+    "test": "node rest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigitalTrustNexus/restservice-for-magento.git"
+  },
+  "author": "nishida@ge.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DigitalTrustNexus/restservice-for-magento/issues"
+  },
+  "homepage": "https://github.com/DigitalTrustNexus/restservice-for-magento#readme",
+  "dependencies": {
+    "bitpay-rest": "^0.3.2",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "sleep": "^6.1.0"
+  }
+}
